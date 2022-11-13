@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BloqueFijo">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAACAAQAAAAAYAAQAAAAAAAAAggAEAAAAAAAA=</HashCode>
+      <FileName>BloqueFijo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BloqueDestruibles">
+    <Position X="5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAACAAAAAAABYAAAAAAAAAAAAogBEAAAAAAAA=</HashCode>
+      <FileName>BloquesDestruibles.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bomba">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABBAAACAAAAAAABICAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Bomba.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Colisionable">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Colisionable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fuego">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACBAAAAAAAICgAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Fuego.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mapa">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAACAIAAAAAAAAAAAAIBAAAAAAAAAAAAQAIAAAggA=</HashCode>
+      <FileName>Mapa.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAACBAiACACAAQAABIAAACEAAAAAAIAAAEAAQAAAAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemigo">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAACAAiACAAAAQAABIAAAAEAAAAAAIAAAEAAAAAAAA=</HashCode>
+      <FileName>Enemigo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
