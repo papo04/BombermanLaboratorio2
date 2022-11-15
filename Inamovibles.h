@@ -9,6 +9,7 @@ class Inamovibles : public Drawable, public Colisionable
 public:
 	bool getEstado() { return _estado; }
 	void setEstado(bool estado) { _estado = estado; };
+	void setPosicionBloque(int x, int y) { _sprite.setPosition(x*45 + 22.5,y * 45 + 22.5); }
 	Sprite getSprite() { return _sprite; }
 	FloatRect getBounds() const override;
 	void draw(RenderTarget& target, RenderStates states) const override;

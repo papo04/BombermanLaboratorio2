@@ -1,7 +1,10 @@
 #include "BloquesDestruibles.h"
 
 BloqueDestruibles::BloqueDestruibles() {
-
+	_txt.loadFromFile("bloqueDestruible.png");
+	_sprite.setTexture(_txt);
+	_sprite.setOrigin(_sprite.getGlobalBounds().width / 2, _sprite.getGlobalBounds().height / 2);
+	_estado = true;
 }
 
 BloqueDestruibles::BloqueDestruibles(int a, int b)

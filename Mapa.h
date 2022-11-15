@@ -40,9 +40,9 @@ public:
 	
 	
 private:
-	int _mat[13][13] = {};
-	BloqueFijo * _bf[73];
-	BloqueDestruibles * _bd[100];
+	int ** _mat;
+	BloqueFijo * _bf;
+	BloqueDestruibles * _bd;
 	BoostVelocidad _bv1, _bv2;
 	BoostBomba _bb1, _bb2;
 	PuertaVictoria _puertaVictoria;

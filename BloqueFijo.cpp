@@ -1,5 +1,13 @@
 #include "BloqueFijo.h"
 
+BloqueFijo::BloqueFijo()
+{
+	_txt.loadFromFile("BloqueFijo.png");
+	_sprite.setTexture(_txt);
+	_sprite.setOrigin(_sprite.getGlobalBounds().width / 2, _sprite.getGlobalBounds().height / 2);
+	_estado = true;
+}
+
 BloqueFijo::BloqueFijo(int a, int b)
 {
 	_txt.loadFromFile("BloqueFijo.png");
